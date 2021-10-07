@@ -1,0 +1,756 @@
+-- Instances:
+local ArmySimGUI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local BiomeTP = Instance.new("TextButton")
+local ShopTP = Instance.new("TextButton")
+local Farming = Instance.new("TextButton")
+local Otheruseful = Instance.new("TextButton")
+local BiomeTPFrame = Instance.new("Frame")
+local Spawnleaderboards = Instance.new("TextButton")
+local Forest = Instance.new("TextButton")
+local Desert = Instance.new("TextButton")
+local EnchantedForest = Instance.new("TextButton")
+local Tundra = Instance.new("TextButton")
+local Depths = Instance.new("TextButton")
+local OtherusefulFrame = Instance.new("Frame")
+local ClaimBase = Instance.new("TextButton")
+local AutoWandON = Instance.new("TextButton")
+local AutoWandOFF = Instance.new("TextButton")
+local FarmingFrame = Instance.new("Frame")
+local BeginnerON = Instance.new("TextButton")
+local BeginnerOFF = Instance.new("TextButton")
+local MehON = Instance.new("TextButton")
+local MehOFF = Instance.new("TextButton")
+local ReallyGoodOFF = Instance.new("TextButton")
+local ReallyGoodON = Instance.new("TextButton")
+local GoodOFF = Instance.new("TextButton")
+local GoodON = Instance.new("TextButton")
+local BestOFF = Instance.new("TextButton")
+local BestON = Instance.new("TextButton")
+local EvenBetterOFF = Instance.new("TextButton")
+local EvenBetterON = Instance.new("TextButton")
+local ShopTPFrame = Instance.new("Frame")
+local ArmyShop = Instance.new("TextButton")
+local ArmorShop = Instance.new("TextButton")
+local DepthsShop = Instance.new("TextButton")
+local BagShop = Instance.new("TextButton")
+local EnchantedShop = Instance.new("TextButton")
+local DesertBowShop = Instance.new("TextButton")
+local SpellShop = Instance.new("TextButton")
+local SwordShop = Instance.new("TextButton")
+local TundraShop = Instance.new("TextButton")
+local Idonothing = Instance.new("TextButton")
+
+--Properties:
+ArmySimGUI.Name = "Army Sim GUI"
+ArmySimGUI.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ArmySimGUI
+Main.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+Main.BorderColor3 = Color3.new(0, 0, 0)
+Main.Position = UDim2.new(0.0194401182, 0, 0.600737154, 0)
+Main.Size = UDim2.new(0, 400, 0, 300)
+Main.Style = Enum.FrameStyle.DropShadow
+
+BiomeTP.Name = "Biome TP"
+BiomeTP.Parent = Main
+BiomeTP.BackgroundColor3 = Color3.new(0, 0, 0)
+BiomeTP.Position = UDim2.new(-0.000559855253, 0, -0.00259625912, 0)
+BiomeTP.Size = UDim2.new(0, 100, 0, 25)
+BiomeTP.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+BiomeTP.Font = Enum.Font.SourceSans
+BiomeTP.Text = "Biome TP"
+BiomeTP.TextColor3 = Color3.new(0, 0, 0)
+BiomeTP.TextSize = 14
+
+ShopTP.Name = "Shop TP"
+ShopTP.Parent = Main
+ShopTP.BackgroundColor3 = Color3.new(0, 0, 0)
+ShopTP.Position = UDim2.new(0.247200638, 0, -0.00259625912, 0)
+ShopTP.Size = UDim2.new(0, 100, 0, 25)
+ShopTP.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+ShopTP.Font = Enum.Font.SourceSans
+ShopTP.Text = "Shop TP"
+ShopTP.TextColor3 = Color3.new(0, 0, 0)
+ShopTP.TextSize = 14
+
+Farming.Name = "Farming"
+Farming.Parent = Main
+Farming.BackgroundColor3 = Color3.new(0, 0, 0)
+Farming.Position = UDim2.new(0.497200638, 0, -0.00259625912, 0)
+Farming.Size = UDim2.new(0, 100, 0, 25)
+Farming.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Farming.Font = Enum.Font.SourceSans
+Farming.Text = "Farming"
+Farming.TextColor3 = Color3.new(0, 0, 0)
+Farming.TextSize = 14
+
+Otheruseful.Name = "Other useful"
+Otheruseful.Parent = Main
+Otheruseful.BackgroundColor3 = Color3.new(0, 0, 0)
+Otheruseful.Position = UDim2.new(0.747200608, 0, -0.00259625912, 0)
+Otheruseful.Size = UDim2.new(0, 100, 0, 25)
+Otheruseful.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Otheruseful.Font = Enum.Font.SourceSans
+Otheruseful.Text = "Other useful"
+Otheruseful.TextColor3 = Color3.new(0, 0, 0)
+Otheruseful.TextSize = 14
+
+BiomeTPFrame.Name = "Biome TP Frame"
+BiomeTPFrame.Parent = ArmySimGUI
+BiomeTPFrame.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+BiomeTPFrame.BorderSizePixel = 0
+BiomeTPFrame.Position = UDim2.new(0.0287713706, 0, 0.649877131, 0)
+BiomeTPFrame.Size = UDim2.new(0, 375, 0, 250)
+BiomeTPFrame.Visible = false
+
+Spawnleaderboards.Name = "Spawn (leaderboards)"
+Spawnleaderboards.Parent = BiomeTPFrame
+Spawnleaderboards.BackgroundColor3 = Color3.new(1, 1, 1)
+Spawnleaderboards.Position = UDim2.new(0.0987578928, 0, 0.101248138, 0)
+Spawnleaderboards.Size = UDim2.new(0, 125, 0, 50)
+Spawnleaderboards.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Spawnleaderboards.Font = Enum.Font.SourceSans
+Spawnleaderboards.Text = "Spawn (leaderboards)"
+Spawnleaderboards.TextColor3 = Color3.new(0, 0, 0)
+Spawnleaderboards.TextSize = 14
+
+Forest.Name = "Forest"
+Forest.Parent = BiomeTPFrame
+Forest.BackgroundColor3 = Color3.new(1, 1, 1)
+Forest.Position = UDim2.new(0.100000001, 0, 0.397000015, 0)
+Forest.Size = UDim2.new(0, 125, 0, 50)
+Forest.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Forest.Font = Enum.Font.SourceSans
+Forest.Text = "Forest"
+Forest.TextColor3 = Color3.new(0, 0, 0)
+Forest.TextSize = 14
+
+Desert.Name = "Desert"
+Desert.Parent = BiomeTPFrame
+Desert.BackgroundColor3 = Color3.new(1, 1, 1)
+Desert.Position = UDim2.new(0.0987578928, 0, 0.697248161, 0)
+Desert.Size = UDim2.new(0, 125, 0, 50)
+Desert.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Desert.Font = Enum.Font.SourceSans
+Desert.Text = "Desert"
+Desert.TextColor3 = Color3.new(0, 0, 0)
+Desert.TextSize = 14
+
+EnchantedForest.Name = "Enchanted Forest"
+EnchantedForest.Parent = BiomeTPFrame
+EnchantedForest.BackgroundColor3 = Color3.new(1, 1, 1)
+EnchantedForest.Position = UDim2.new(0.565424621, 0, 0.101248138, 0)
+EnchantedForest.Size = UDim2.new(0, 125, 0, 50)
+EnchantedForest.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+EnchantedForest.Font = Enum.Font.SourceSans
+EnchantedForest.Text = "Enchanted Forest"
+EnchantedForest.TextColor3 = Color3.new(0, 0, 0)
+EnchantedForest.TextSize = 14
+
+Tundra.Name = "Tundra"
+Tundra.Parent = BiomeTPFrame
+Tundra.BackgroundColor3 = Color3.new(1, 1, 1)
+Tundra.Position = UDim2.new(0.56400001, 0, 0.396999985, 0)
+Tundra.Size = UDim2.new(0, 125, 0, 50)
+Tundra.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Tundra.Font = Enum.Font.SourceSans
+Tundra.Text = "Tundra"
+Tundra.TextColor3 = Color3.new(0, 0, 0)
+Tundra.TextSize = 14
+
+Depths.Name = "Depths"
+Depths.Parent = BiomeTPFrame
+Depths.BackgroundColor3 = Color3.new(1, 1, 1)
+Depths.Position = UDim2.new(0.565424621, 0, 0.697248161, 0)
+Depths.Size = UDim2.new(0, 125, 0, 50)
+Depths.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Depths.Font = Enum.Font.SourceSans
+Depths.Text = "Depths"
+Depths.TextColor3 = Color3.new(0, 0, 0)
+Depths.TextSize = 14
+
+OtherusefulFrame.Archivable = false
+OtherusefulFrame.Name = "Other useful Frame"
+OtherusefulFrame.Parent = ArmySimGUI
+OtherusefulFrame.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+OtherusefulFrame.BorderSizePixel = 0
+OtherusefulFrame.Position = UDim2.new(0.0287714154, 0, 0.649877131, 0)
+OtherusefulFrame.Size = UDim2.new(0, 375, 0, 250)
+
+ClaimBase.Name = "Claim Base"
+ClaimBase.Parent = OtherusefulFrame
+ClaimBase.BackgroundColor3 = Color3.new(1, 1, 1)
+ClaimBase.Position = UDim2.new(0.0995728225, 0, 0.0732874498, 0)
+ClaimBase.Size = UDim2.new(0, 300, 0, 50)
+ClaimBase.Font = Enum.Font.SourceSans
+ClaimBase.Text = "Claim A Base"
+ClaimBase.TextColor3 = Color3.new(0, 0, 0)
+ClaimBase.TextSize = 14
+
+AutoWandON.Name = "Auto Wand: ON"
+AutoWandON.Parent = OtherusefulFrame
+AutoWandON.BackgroundColor3 = Color3.new(1, 1, 1)
+AutoWandON.Position = UDim2.new(0.0995728374, 0, 0.461287588, 0)
+AutoWandON.Size = UDim2.new(0, 125, 0, 50)
+AutoWandON.Font = Enum.Font.SourceSans
+AutoWandON.Text = "Auto Wand: ON"
+AutoWandON.TextColor3 = Color3.new(0, 0, 0)
+AutoWandON.TextSize = 14
+
+AutoWandOFF.Name = "Auto Wand: OFF"
+AutoWandOFF.Parent = OtherusefulFrame
+AutoWandOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+AutoWandOFF.Position = UDim2.new(0.566239476, 0, 0.461287588, 0)
+AutoWandOFF.Size = UDim2.new(0, 125, 0, 50)
+AutoWandOFF.Font = Enum.Font.SourceSans
+AutoWandOFF.Text = "Auto Wand: OFF"
+AutoWandOFF.TextColor3 = Color3.new(0, 0, 0)
+AutoWandOFF.TextSize = 14
+
+FarmingFrame.Archivable = false
+FarmingFrame.Name = "Farming Frame"
+FarmingFrame.Parent = ArmySimGUI
+FarmingFrame.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+FarmingFrame.BorderSizePixel = 0
+FarmingFrame.Position = UDim2.new(0.0287713408, 0, 0.649877131, 0)
+FarmingFrame.Size = UDim2.new(0, 375, 0, 250)
+FarmingFrame.Visible = false
+
+BeginnerON.Name = "Beginner ON"
+BeginnerON.Parent = FarmingFrame
+BeginnerON.BackgroundColor3 = Color3.new(1, 1, 1)
+BeginnerON.Position = UDim2.new(0.0995728746, 0, 0.0412873551, 0)
+BeginnerON.Size = UDim2.new(0, 130, 0, 30)
+BeginnerON.Font = Enum.Font.SourceSans
+BeginnerON.Text = "Beginner: ON"
+BeginnerON.TextColor3 = Color3.new(0, 0, 0)
+BeginnerON.TextSize = 14
+
+BeginnerOFF.Name = "Beginner OFF"
+BeginnerOFF.Parent = FarmingFrame
+BeginnerOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+BeginnerOFF.Position = UDim2.new(0.552906215, 0, 0.0412873551, 0)
+BeginnerOFF.Size = UDim2.new(0, 130, 0, 30)
+BeginnerOFF.Font = Enum.Font.SourceSans
+BeginnerOFF.Text = "Beginner: OFF"
+BeginnerOFF.TextColor3 = Color3.new(0, 0, 0)
+BeginnerOFF.TextSize = 14
+
+MehON.Name = "Meh ON"
+MehON.Parent = FarmingFrame
+MehON.BackgroundColor3 = Color3.new(1, 1, 1)
+MehON.Position = UDim2.new(0.0995728746, 0, 0.185287356, 0)
+MehON.Size = UDim2.new(0, 130, 0, 30)
+MehON.Font = Enum.Font.SourceSans
+MehON.Text = "Meh: ON"
+MehON.TextColor3 = Color3.new(0, 0, 0)
+MehON.TextSize = 14
+
+MehOFF.Name = "Meh OFF"
+MehOFF.Parent = FarmingFrame
+MehOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+MehOFF.Position = UDim2.new(0.552906215, 0, 0.185287356, 0)
+MehOFF.Size = UDim2.new(0, 130, 0, 30)
+MehOFF.Font = Enum.Font.SourceSans
+MehOFF.Text = "Meh: OFF"
+MehOFF.TextColor3 = Color3.new(0, 0, 0)
+MehOFF.TextSize = 14
+
+ReallyGoodOFF.Name = "ReallyGood OFF"
+ReallyGoodOFF.Parent = FarmingFrame
+ReallyGoodOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+ReallyGoodOFF.Position = UDim2.new(0.552906215, 0, 0.477287352, 0)
+ReallyGoodOFF.Size = UDim2.new(0, 130, 0, 30)
+ReallyGoodOFF.Font = Enum.Font.SourceSans
+ReallyGoodOFF.Text = "ReallyGood: OFF"
+ReallyGoodOFF.TextColor3 = Color3.new(0, 0, 0)
+ReallyGoodOFF.TextSize = 14
+
+ReallyGoodON.Name = "ReallyGood ON"
+ReallyGoodON.Parent = FarmingFrame
+ReallyGoodON.BackgroundColor3 = Color3.new(1, 1, 1)
+ReallyGoodON.Position = UDim2.new(0.0995728746, 0, 0.477287352, 0)
+ReallyGoodON.Size = UDim2.new(0, 130, 0, 30)
+ReallyGoodON.Font = Enum.Font.SourceSans
+ReallyGoodON.Text = "ReallyGood: ON"
+ReallyGoodON.TextColor3 = Color3.new(0, 0, 0)
+ReallyGoodON.TextSize = 14
+
+GoodOFF.Name = "Good OFF"
+GoodOFF.Parent = FarmingFrame
+GoodOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+GoodOFF.Position = UDim2.new(0.552906215, 0, 0.333287358, 0)
+GoodOFF.Size = UDim2.new(0, 130, 0, 30)
+GoodOFF.Font = Enum.Font.SourceSans
+GoodOFF.Text = "Good: OFF"
+GoodOFF.TextColor3 = Color3.new(0, 0, 0)
+GoodOFF.TextSize = 14
+
+GoodON.Name = "Good ON"
+GoodON.Parent = FarmingFrame
+GoodON.BackgroundColor3 = Color3.new(1, 1, 1)
+GoodON.Position = UDim2.new(0.0995728746, 0, 0.333287358, 0)
+GoodON.Size = UDim2.new(0, 130, 0, 30)
+GoodON.Font = Enum.Font.SourceSans
+GoodON.Text = "Good: ON"
+GoodON.TextColor3 = Color3.new(0, 0, 0)
+GoodON.TextSize = 14
+
+BestOFF.Name = "Best OFF"
+BestOFF.Parent = FarmingFrame
+BestOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+BestOFF.Position = UDim2.new(0.552906215, 0, 0.769287348, 0)
+BestOFF.Size = UDim2.new(0, 130, 0, 30)
+BestOFF.Font = Enum.Font.SourceSans
+BestOFF.Text = "Best: OFF"
+BestOFF.TextColor3 = Color3.new(0, 0, 0)
+BestOFF.TextSize = 14
+
+BestON.Name = "Best ON"
+BestON.Parent = FarmingFrame
+BestON.BackgroundColor3 = Color3.new(1, 1, 1)
+BestON.Position = UDim2.new(0.0995728746, 0, 0.769287348, 0)
+BestON.Size = UDim2.new(0, 130, 0, 30)
+BestON.Font = Enum.Font.SourceSans
+BestON.Text = "Best: ON"
+BestON.TextColor3 = Color3.new(0, 0, 0)
+BestON.TextSize = 14
+
+EvenBetterOFF.Name = "EvenBetter OFF"
+EvenBetterOFF.Parent = FarmingFrame
+EvenBetterOFF.BackgroundColor3 = Color3.new(1, 1, 1)
+EvenBetterOFF.Position = UDim2.new(0.552906215, 0, 0.625287354, 0)
+EvenBetterOFF.Size = UDim2.new(0, 130, 0, 30)
+EvenBetterOFF.Font = Enum.Font.SourceSans
+EvenBetterOFF.Text = "EvenBetter: OFF"
+EvenBetterOFF.TextColor3 = Color3.new(0, 0, 0)
+EvenBetterOFF.TextSize = 14
+
+EvenBetterON.Name = "EvenBetter ON"
+EvenBetterON.Parent = FarmingFrame
+EvenBetterON.BackgroundColor3 = Color3.new(1, 1, 1)
+EvenBetterON.Position = UDim2.new(0.0995728746, 0, 0.625287354, 0)
+EvenBetterON.Size = UDim2.new(0, 130, 0, 30)
+EvenBetterON.Font = Enum.Font.SourceSans
+EvenBetterON.Text = "EvenBetter: ON"
+EvenBetterON.TextColor3 = Color3.new(0, 0, 0)
+EvenBetterON.TextSize = 14
+
+ShopTPFrame.Archivable = false
+ShopTPFrame.Name = "Shop TP Frame"
+ShopTPFrame.Parent = ArmySimGUI
+ShopTPFrame.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+ShopTPFrame.BorderSizePixel = 0
+ShopTPFrame.Position = UDim2.new(0.0287713706, 0, 0.649877131, 0)
+ShopTPFrame.Size = UDim2.new(0, 375, 0, 250)
+ShopTPFrame.Visible = false
+
+ArmyShop.Name = "Army Shop"
+ArmyShop.Parent = ShopTPFrame
+ArmyShop.BackgroundColor3 = Color3.new(1, 1, 1)
+ArmyShop.Position = UDim2.new(0.566239536, 0, 0.0612873547, 0)
+ArmyShop.Size = UDim2.new(0, 125, 0, 35)
+ArmyShop.Font = Enum.Font.SourceSans
+ArmyShop.Text = "Army Shop"
+ArmyShop.TextColor3 = Color3.new(0, 0, 0)
+ArmyShop.TextSize = 14
+
+ArmorShop.Name = "Armor Shop"
+ArmorShop.Parent = ShopTPFrame
+ArmorShop.BackgroundColor3 = Color3.new(1, 1, 1)
+ArmorShop.Position = UDim2.new(0.0995728746, 0, 0.0612873547, 0)
+ArmorShop.Size = UDim2.new(0, 125, 0, 35)
+ArmorShop.Font = Enum.Font.SourceSans
+ArmorShop.Text = "Armor Shop"
+ArmorShop.TextColor3 = Color3.new(0, 0, 0)
+ArmorShop.TextSize = 14
+
+DepthsShop.Name = "Depths Shop"
+DepthsShop.Parent = ShopTPFrame
+DepthsShop.BackgroundColor3 = Color3.new(1, 1, 1)
+DepthsShop.Position = UDim2.new(0.566239536, 0, 0.241287366, 0)
+DepthsShop.Size = UDim2.new(0, 125, 0, 35)
+DepthsShop.Font = Enum.Font.SourceSans
+DepthsShop.Text = "Depths Shop"
+DepthsShop.TextColor3 = Color3.new(0, 0, 0)
+DepthsShop.TextSize = 14
+
+BagShop.Name = "Bag Shop"
+BagShop.Parent = ShopTPFrame
+BagShop.BackgroundColor3 = Color3.new(1, 1, 1)
+BagShop.Position = UDim2.new(0.0995728746, 0, 0.241287366, 0)
+BagShop.Size = UDim2.new(0, 125, 0, 35)
+BagShop.Font = Enum.Font.SourceSans
+BagShop.Text = "Bag Shop"
+BagShop.TextColor3 = Color3.new(0, 0, 0)
+BagShop.TextSize = 14
+
+EnchantedShop.Name = "Enchanted Shop"
+EnchantedShop.Parent = ShopTPFrame
+EnchantedShop.BackgroundColor3 = Color3.new(1, 1, 1)
+EnchantedShop.Position = UDim2.new(0.566239536, 0, 0.413287342, 0)
+EnchantedShop.Size = UDim2.new(0, 125, 0, 35)
+EnchantedShop.Font = Enum.Font.SourceSans
+EnchantedShop.Text = "Enchanted Shop"
+EnchantedShop.TextColor3 = Color3.new(0, 0, 0)
+EnchantedShop.TextSize = 14
+
+DesertBowShop.Name = "Desert (Bow) Shop"
+DesertBowShop.Parent = ShopTPFrame
+DesertBowShop.BackgroundColor3 = Color3.new(1, 1, 1)
+DesertBowShop.Position = UDim2.new(0.0995728746, 0, 0.413287342, 0)
+DesertBowShop.Size = UDim2.new(0, 125, 0, 35)
+DesertBowShop.Font = Enum.Font.SourceSans
+DesertBowShop.Text = "Desert (Bow) Shop"
+DesertBowShop.TextColor3 = Color3.new(0, 0, 0)
+DesertBowShop.TextSize = 14
+
+SpellShop.Name = "Spell Shop"
+SpellShop.Parent = ShopTPFrame
+SpellShop.BackgroundColor3 = Color3.new(1, 1, 1)
+SpellShop.Position = UDim2.new(0.0995728746, 0, 0.593287349, 0)
+SpellShop.Size = UDim2.new(0, 125, 0, 35)
+SpellShop.Font = Enum.Font.SourceSans
+SpellShop.Text = "Spell Shop"
+SpellShop.TextColor3 = Color3.new(0, 0, 0)
+SpellShop.TextSize = 14
+
+SwordShop.Name = "Sword Shop"
+SwordShop.Parent = ShopTPFrame
+SwordShop.BackgroundColor3 = Color3.new(1, 1, 1)
+SwordShop.Position = UDim2.new(0.566239536, 0, 0.593287349, 0)
+SwordShop.Size = UDim2.new(0, 125, 0, 35)
+SwordShop.Font = Enum.Font.SourceSans
+SwordShop.Text = "Sword Shop"
+SwordShop.TextColor3 = Color3.new(0, 0, 0)
+SwordShop.TextSize = 14
+
+TundraShop.Name = "Tundra Shop"
+TundraShop.Parent = ShopTPFrame
+TundraShop.BackgroundColor3 = Color3.new(1, 1, 1)
+TundraShop.Position = UDim2.new(0.0995728746, 0, 0.76528734, 0)
+TundraShop.Size = UDim2.new(0, 125, 0, 35)
+TundraShop.Font = Enum.Font.SourceSans
+TundraShop.Text = "Tundra Shop"
+TundraShop.TextColor3 = Color3.new(0, 0, 0)
+TundraShop.TextSize = 14
+
+Idonothing.Name = "I do nothing"
+Idonothing.Parent = ShopTPFrame
+Idonothing.BackgroundColor3 = Color3.new(1, 1, 1)
+Idonothing.Position = UDim2.new(0.566239536, 0, 0.76528734, 0)
+Idonothing.Size = UDim2.new(0, 125, 0, 35)
+Idonothing.Font = Enum.Font.SourceSans
+Idonothing.Text = "I do nothing"
+Idonothing.TextColor3 = Color3.new(0, 0, 0)
+Idonothing.TextSize = 14
+
+-- Scripts:
+--Other Usefull
+ClaimBase.MouseButton1Click:connect(function()
+	local a = "addUser"
+local b = game:GetService("Workspace").Spawns["DEFAULT_SPAWN"]
+game:GetService("ReplicatedStorage").Event:FireServer(a, b)
+end)
+
+AutoWandON.MouseButton1Click:connect(function()
+	_G.Wand = true
+
+while _G.Wand == true do
+wait(0.1)
+local char = game.Players.LocalPlayer.character.HumanoidRootPart.CFrame.Position
+local a = "use"
+local b = "wand"
+local c = "place"
+local d = char
+game:GetService("ReplicatedStorage").Event:FireServer(a, b, c, d)
+end
+end)
+
+AutoWandOFF.MouseButton1Click:connect(function()
+	_G.Wand = false
+
+while _G.Wand == true do
+wait(0.1)
+local char = game.Players.LocalPlayer.character.HumanoidRootPart.CFrame.Position
+local a = "use"
+local b = "wand"
+local c = "place"
+local d = char
+game:GetService("ReplicatedStorage").Event:FireServer(a, b, c, d)
+end
+end)
+
+--Shop TP
+ArmorShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1124.23645, 87.5853806, 119.314468)
+end)
+
+ArmyShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1050.2533, 87.5853806, 121.922073)
+end)
+
+BagShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1001.00964, 87.5853806, 121.99678)
+end)
+
+DepthsShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2106.10254, 59.1203041, 267.611359)
+end)
+
+DesertBowShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(187.034744, 129.556213, 308.163086)
+end)
+
+EnchantedForest.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(791.938904, 101.585381, -974.497253)
+end)
+
+SpellShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(822.733948, 101.926811, -340.111725)
+end)
+
+SwordShop.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1186.02502, 87.5853806, 119.56868)
+end)
+
+Tundra.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-246.010269, 258.646515, 174.727142)
+end)
+
+--Biome TP
+Depths.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2092.89771, 59.1203041, 249.616516)
+end)
+
+Desert.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(290.416626, 129.556213, 91.8538895)
+end)
+
+EnchantedForest.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(825.13916, 101.585381, -743.900024)
+end)
+
+Forest.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(688.116272, 101.926811, -29.3684387)
+end)
+
+Spawnleaderboards.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1318.60229, 87.5853806, 35.5183754)
+end)
+
+Tundra.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-86.2176208, 258.646515, 16.429533)
+end)
+
+--Auto Farms
+BeginnerON.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(1097.82, 88.544, 42.22)
+
+wait(4)
+
+_G.beginner = true
+
+while _G.beginner == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.farmerModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+BeginnerOFF.MouseButton1Click:connect(function()
+	_G.beginner = false
+
+while _G.beginner == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.farmerModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+MehON.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(569.512268, 102.884796, -109.121109)
+
+wait(4)
+
+_G.meh = true
+
+while _G.meh == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.rockGolemModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+MehOFF.MouseButton1Click:connect(function()
+	_G.meh = false
+
+while _G.meh == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.rockGolemModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+GoodON.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(195.887848, 130.514191, -57.898304)
+
+wait(4)
+
+_G.good = true
+
+while _G.good == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.sandGolemModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+GoodOFF.MouseButton1Click:connect(function()
+_G.good = false
+
+while _G.good == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.sandGolemModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+ReallyGoodON.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(-162.815598, 259.724457, -126.625824)
+
+wait(4)
+
+_G.reallygood = true
+
+while _G.reallygood == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.yetiModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+ReallyGoodOFF.MouseButton1Click:connect(function()
+	_G.reallygood = false
+
+while _G.reallygood == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.yetiModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+EvenBetterON.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(-173.647263, 259.604523, 133.4702)
+
+wait(4)
+
+_G.evenbetter = true
+
+while _G.evenbetter == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.unicornModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+EvenBetterOFF.MouseButton1Click:connect(function()
+	_G.evenbetter = false
+
+while _G.evenbetter == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.unicornModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+BestON.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(692.531982, 102.543388, -971.082703)
+
+wait(4)
+
+_G.best = true
+
+while _G.best == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.juggarModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+BestOFF.MouseButton1Click:connect(function()
+	_G.best = false
+
+while _G.best == true do
+wait(0.4)
+for _,v in pairs(workspace.Entities.juggarModel:GetDescendants()) do
+if v.Name == "Torso" then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+end
+end)
+
+--Tabs
+BiomeTP.MouseButton1Down:connect(function()
+	BiomeTPFrame.Visible = true
+	OtherusefulFrame.Visible = false
+	FarmingFrame.Visible = false
+	ShopTPFrame.Visible = false
+end)
+
+Otheruseful.MouseButton1Click:connect(function()
+	BiomeTPFrame.Visible = false
+	OtherusefulFrame.Visible = true
+	FarmingFrame.Visible = false
+	ShopTPFrame.Visible = false
+end)
+
+Farming.MouseButton1Click:connect(function()
+	BiomeTPFrame.Visible = false
+	OtherusefulFrame.Visible = false
+	FarmingFrame.Visible = true
+	ShopTPFrame.Visible = false
+end)
+
+ShopTP.MouseButton1Click:connect(function()
+	BiomeTPFrame.Visible = false
+	OtherusefulFrame.Visible = false
+	FarmingFrame.Visible = false
+	ShopTPFrame.Visible = true
+end)
